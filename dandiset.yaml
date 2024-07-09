@@ -151,6 +151,34 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- awardNumber: F32MH120894
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 1F31NS127536
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: ' F32DC020665'
+  identifier: https://ror.org/04mhx6838
+  includeInCitation: false
+  name: National Institute on Deafness and Other Communication Disorders
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: ' RF1NS128975'
+  identifier: https://ror.org/01s5ya894
+  includeInCitation: false
+  name: National Institute of Neurological Disorders and Stroke​
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-07-09T09:02:04.023305+00:00'
 description: Neural population dynamics relevant to behavior vary over multiple spatial
   and temporal scales across three-dimensional volumes. Current optical approaches
@@ -170,14 +198,20 @@ description: Neural population dynamics relevant to behavior vary over multiple 
 ethicsApproval: []
 id: DANDI:001084/draft
 identifier: DANDI:001084
-keywords: []
+keywords:
+- multi-fiber photometry
+- behaving mice
+- freely moving mice
+- dopamine
+- striatum
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001084/versions/draft/assets/
 name: Targeted micro-fiber arrays for measuring and manipulating localized multi-scale
   neural dynamics over large, deep brain volumes during behavior
-protocol: []
+protocol:
+- https://doi.org/10.17504/protocols.io.bp2l6xyrklqe/v1
 relatedResource:
 - identifier: https://doi.org/10.1016/j.neuron.2023.12.011
   name: Targeted micro-fiber arrays for measuring and manipulating localized multi-scale

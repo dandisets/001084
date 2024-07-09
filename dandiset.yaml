@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001084
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -9,17 +10,147 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Weigl, Szonja (2024) Targeted micro-fiber arrays for measuring and manipulating
+citation: Vu, Mai-Anh T.; Brown, Eleanor H.; Wen, Michelle J.; Noggle, Christian A.;
+  Zhang, Zicheng; Monk, Kevin J.; Bouabid, Safa; Mroz, Lydia; Graham, Benjamin M.;
+  Zhuo, Yizhou; Li, Yulong; Otchy, Timothy M.; Tian, Lin; Davison, Ian G.; Boas, David
+  A.; Howe, Mark W. (2024) Targeted micro-fiber arrays for measuring and manipulating
   localized multi-scale neural dynamics over large, deep brain volumes during behavior
   (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001084/draft
 contributor:
 - affiliation: []
-  email: weigl.anna.szonja@hallgato.ppke.hu
+  email: maianhvu@bu.edu
   includeInCitation: true
-  name: Weigl, Szonja
+  name: Vu, Mai-Anh T.
   roleName:
+  - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Brown, Eleanor H.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Wen, Michelle J.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Noggle, Christian A.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Zhang, Zicheng
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Monk, Kevin J.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Bouabid, Safa
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mroz, Lydia
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Graham, Benjamin M.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Zhuo, Yizhou
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Li, Yulong
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Otchy, Timothy M.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Tian, Lin
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Davison, Ian G.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Boas, David A.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  email: mwhowe@bu.edu
+  includeInCitation: true
+  name: Howe, Mark W.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- awardNumber: ASAP-020370
+  identifier: https://ror.org/03arq3225
+  includeInCitation: false
+  name: Michael J. Fox Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01 MH125835
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: PF-SF-JFA-836662
+  identifier: https://ror.org/00her7k05
+  includeInCitation: false
+  name: Whitehall Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: PF-SF-JFA-836662
+  identifier: https://ror.org/01cmst727
+  includeInCitation: false
+  name: Klingenstein-Simons Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: PF-SF-JFA-836662
+  identifier: https://ror.org/05mx85j86
+  includeInCitation: false
+  name: Parkinson’s Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-07-09T09:02:04.023305+00:00'
 description: Neural population dynamics relevant to behavior vary over multiple spatial
   and temporal scales across three-dimensional volumes. Current optical approaches
@@ -36,16 +167,28 @@ description: Neural population dynamics relevant to behavior vary over multiple 
   flexible control of neural signaling on multiple spatial scales, better matching
   endogenous signaling patterns, and the spatial localization of behavioral function
   across large circuits.
+ethicsApproval: []
 id: DANDI:001084/draft
 identifier: DANDI:001084
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001084/versions/draft/assets/
 name: Targeted micro-fiber arrays for measuring and manipulating localized multi-scale
   neural dynamics over large, deep brain volumes during behavior
+protocol: []
+relatedResource:
+- identifier: https://doi.org/10.1016/j.neuron.2023.12.011
+  name: Targeted micro-fiber arrays for measuring and manipulating localized multi-scale
+    neural dynamics over large, deep brain volumes during behavior
+  relation: dcite:IsDescribedBy
+  schemaKey: Resource
+  url: https://doi.org/https://doi.org/10.1016/j.neuron.2023.12.011
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001084/draft
 version: draft
+wasGeneratedBy: []

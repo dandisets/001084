@@ -2,14 +2,25 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001084
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002435
+  name: striatum
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0035999
+  name: dopaminergic cell groups
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard: []
+  measurementTechnique: []
+  numberOfBytes: 3019337596
+  numberOfFiles: 3
   schemaKey: AssetsSummary
+  species: []
+  variableMeasured: []
 citation: Vu, Mai-Anh T.; Brown, Eleanor H.; Wen, Michelle J.; Noggle, Christian A.;
   Zhang, Zicheng; Monk, Kevin J.; Bouabid, Safa; Mroz, Lydia; Graham, Benjamin M.;
   Zhuo, Yizhou; Li, Yulong; Otchy, Timothy M.; Tian, Lin; Davison, Ian G.; Boas, David
@@ -219,6 +230,12 @@ relatedResource:
   relation: dcite:IsDescribedBy
   schemaKey: Resource
   url: https://doi.org/https://doi.org/10.1016/j.neuron.2023.12.011
+- name: howe-lab-to-nwb
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/howe-lab-to-nwb/
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7

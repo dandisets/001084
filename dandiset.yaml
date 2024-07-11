@@ -13,14 +13,34 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
-  dataStandard: []
-  measurementTechnique: []
-  numberOfBytes: 1118998388
-  numberOfFiles: 1
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 14321886652
+  numberOfFiles: 2
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-  species: []
-  variableMeasured: []
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ImagingPlane
+  - OpticalChannel
+  - TwoPhotonSeries
+  - ProcessingModule
+  - PlaneSegmentation
 citation: Vu, Mai-Anh T.; Brown, Eleanor H.; Wen, Michelle J.; Noggle, Christian A.;
   Zhang, Zicheng; Monk, Kevin J.; Bouabid, Safa; Mroz, Lydia; Graham, Benjamin M.;
   Zhuo, Yizhou; Li, Yulong; Otchy, Timothy M.; Tian, Lin; Davison, Ian G.; Boas, David

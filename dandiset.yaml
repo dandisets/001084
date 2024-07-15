@@ -27,9 +27,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 14321886652
-  numberOfFiles: 2
-  numberOfSubjects: 1
+  numberOfBytes: 32730793664
+  numberOfFiles: 3
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -222,10 +222,7 @@ description: Neural population dynamics relevant to behavior vary over multiple 
   arbitrary 3D volumes at a spatial resolution and coverage previously inaccessible.
   We applied this method to resolve rapid dopamine release dynamics across the striatum,
   revealing distinct, modality-specific spatiotemporal patterns in response to salient
-  sensory stimuli extending over millimeters of tissue. Targeted optogenetics enabled
-  flexible control of neural signaling on multiple spatial scales, better matching
-  endogenous signaling patterns, and the spatial localization of behavioral function
-  across large circuits.
+  sensory stimuli extending over millimeters of tissue.
 ethicsApproval: []
 id: DANDI:001084/draft
 identifier: DANDI:001084

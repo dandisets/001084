@@ -25,8 +25,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 823109975937
-  numberOfFiles: 179
+  numberOfBytes: 826752561643
+  numberOfFiles: 180
   numberOfSubjects: 16
   schemaKey: AssetsSummary
   species:
@@ -197,6 +197,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-07-09T09:02:04.023305+00:00'
+datePublished: '2024-10-23T20:11:48.114699+00:00'
 description: Neural population dynamics relevant to behavior vary over multiple spatial
   and temporal scales across three-dimensional volumes. Current optical approaches
   lack the spatial coverage and resolution necessary to measure and manipulate naturally
@@ -227,6 +228,18 @@ name: Targeted micro-fiber arrays for measuring and manipulating localized multi
   neural dynamics over large, deep brain volumes during behavior
 protocol:
 - https://doi.org/10.17504/protocols.io.bp2l6xyrklqe/v1
+publishedBy:
+  endDate: '2024-10-23T20:11:48.114699+00:00'
+  id: urn:uuid:88d7cfee-4aee-41e4-87ed-5ed9bf63e896
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-10-23T20:11:48.114699+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:a11a8934-6287-404b-87a1-6af492e85090
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1016/j.neuron.2023.12.011
   name: Targeted micro-fiber arrays for measuring and manipulating localized multi-scale
@@ -248,6 +261,12 @@ relatedResource:
   resourceType: dcite:ComputationalNotebook
   schemaKey: Resource
   url: https://github.com/dandi/example-notebooks/blob/master/001084/HoweLab/001084_demo.ipynb
+- name: Howe Lab GitHub
+  relation: dcite:IsSupplementedBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/howelab
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7

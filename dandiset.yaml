@@ -43,7 +43,7 @@ citation: Vu, Mai-Anh T.; Brown, Eleanor H.; Wen, Michelle J.; Noggle, Christian
   Zhuo, Yizhou; Li, Yulong; Otchy, Timothy M.; Tian, Lin; Davison, Ian G.; Boas, David
   A.; Howe, Mark W. (2024) Targeted micro-fiber arrays for measuring and manipulating
   localized multi-scale neural dynamics over large, deep brain volumes during behavior
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001084/draft
+  (Version 0.241023.2011) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.001084/0.241023.2011
 contributor:
 - affiliation: []
   email: maianhvu@bu.edu
@@ -210,8 +210,9 @@ description: Neural population dynamics relevant to behavior vary over multiple 
   We applied this method to resolve rapid dopamine release dynamics across the striatum,
   revealing distinct, modality-specific spatiotemporal patterns in response to salient
   sensory stimuli extending over millimeters of tissue.
+doi: 10.48324/dandi.001084/0.241023.2011
 ethicsApproval: []
-id: DANDI:001084/draft
+id: DANDI:001084/0.241023.2011
 identifier: DANDI:001084
 keywords:
 - multi-site photometry
@@ -223,7 +224,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001084/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001084/0.241023.2011/assets.yaml
 name: Targeted micro-fiber arrays for measuring and manipulating localized multi-scale
   neural dynamics over large, deep brain volumes during behavior
 protocol:
@@ -271,6 +272,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
 studyTarget: []
-url: https://dandiarchive.org/dandiset/001084/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001084/0.241023.2011
+version: 0.241023.2011
 wasGeneratedBy: []
